@@ -1,0 +1,14 @@
+{
+  "Sirene": {
+    "budget_price_per_kg": 11.50,
+    "premium_price_per_kg": 22.00
+  },
+  "Kiselo Mlyako": {
+    "budget_price_per_item": 1.20,
+    "premium_price_per_item": 2.50
+  },
+  "Kashkaval": {
+    "budget_price_per_kg": 14.00,
+    "premium_price_per_kg": 28.00
+  }
+}
