@@ -1,14 +1,107 @@
 {
-  "Sirene": {
-    "budget_price_per_kg": 11.50,
-    "premium_price_per_kg": 22.00
+  "dairy": {
+    "Kiselo Mlyako K-Classic 3.6%": {
+      "price": 1.15,
+      "unit": "400g",
+      "category": "Dairy"
+    },
+    "Sirene Krava Brey!": {
+      "price": 12.99,
+      "unit": "kg",
+      "category": "Dairy"
+    },
+    "Kashkaval Ot Kraveshko Mlyako K-Classic": {
+      "price": 16.49,
+      "unit": "kg",
+      "category": "Dairy"
+    },
+    "Preasno Mlyako K-Classic 3.5%": {
+      "price": 2.39,
+      "unit": "l",
+      "category": "Dairy"
+    },
+    "Kraveshko Maslo K-Classic": {
+      "price": 4.19,
+      "unit": "250g",
+      "category": "Dairy"
+    }
   },
-  "Kiselo Mlyako": {
-    "budget_price_per_item": 1.20,
-    "premium_price_per_item": 2.50
+  "bakery": {
+    "Hlyab Dobrudzha": {
+      "price": 1.45,
+      "unit": "650g",
+      "category": "Bakery"
+    },
+    "Beli Hlyab Na Furnata": {
+      "price": 1.69,
+      "unit": "500g",
+      "category": "Bakery"
+    },
+    "Kroasan s Maslo (Fresh Bakery)": {
+      "price": 0.99,
+      "unit": "item",
+      "category": "Bakery"
+    }
   },
-  "Kashkaval": {
-    "budget_price_per_kg": 14.00,
-    "premium_price_per_kg": 28.00
+  "meat_and_fish": {
+    "Pileshko File ot Gardi (K-Purland)": {
+      "price": 13.49,
+      "unit": "kg",
+      "category": "Meat"
+    },
+    "Mlyano Meso Svinsko i Govezhdo Brey!": {
+      "price": 7.99,
+      "unit": "kg",
+      "category": "Meat"
+    },
+    "Svinski Vrat bez Kost": {
+      "price": 11.89,
+      "unit": "kg",
+      "category": "Meat"
+    }
+  },
+  "produce": {
+    "Domati Rozovi": {
+      "price": 4.20,
+      "unit": "kg",
+      "category": "Produce"
+    },
+    "Krastavitsi": {
+      "price": 2.80,
+      "unit": "kg",
+      "category": "Produce"
+    },
+    "Kartofi": {
+      "price": 1.35,
+      "unit": "kg",
+      "category": "Produce"
+    },
+    "Banani": {
+      "price": 2.99,
+      "unit": "kg",
+      "category": "Produce"
+    }
+  },
+  "pantry": {
+    "Olio K-Classic": {
+      "price": 2.69,
+      "unit": "l",
+      "category": "Pantry"
+    },
+    "Zahar K-Classic": {
+      "price": 1.85,
+      "unit": "kg",
+      "category": "Pantry"
+    },
+    "Oriz Balgarski Brey!": {
+      "price": 3.19,
+      "unit": "kg",
+      "category": "Pantry"
+    },
+    "Lyutenitsa Traditsionna Brey!": {
+      "price": 4.49,
+      "unit": "500g",
+      "category": "Pantry"
+    }
   }
 }
