@@ -16,5 +16,5 @@ Sofia Smart Shopper is a local command-line utility designed to help consumers o
 * `my_list.txt` - The user's custom grocery list file.
 
 ## Requirements
-* Python 3.x (i'm using 3.14.5)
+* Python 3.x (I'm using 3.14.5)
 * No external dependencies required (uses built-in modules).
