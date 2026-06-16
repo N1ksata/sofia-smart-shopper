@@ -1,106 +1,92 @@
+//ebag.bg prices
+
 {
-  "dairy": {
-    "Kiselo Mlyako K-Classic 3.6%": {
-      "price": 1.15,
+  "essential_diary": {
+    "Sirene Krave Vereq": {
+      "price": 4.85,
+      "currency": "EUR",
+      "unit": "700g",
+      "category": "Diary"
+    },
+    "Kashkaval Murgash ot Krave Mlyako": {
+      "price": 6.59,
+      "currency": "EUR",
       "unit": "400g",
       "category": "Dairy"
     },
-    "Sirene Krava Brey!": {
-      "price": 12.99,
-      "unit": "kg",
+    "Kiselo Mlyako Vereya 3.6%": {
+      "price": 0.89,
+      "currency": "EUR",
+      "unit": "400g",
       "category": "Dairy"
     },
-    "Kashkaval Ot Kraveshko Mlyako K-Classic": {
-      "price": 16.49,
-      "unit": "kg",
-      "category": "Dairy"
-    },
-    "Preasno Mlyako K-Classic 3.5%": {
-      "price": 2.39,
-      "unit": "l",
-      "category": "Dairy"
-    },
-    "Kraveshko Maslo K-Classic": {
-      "price": 4.19,
-      "unit": "250g",
+    "Prqsno Mlyako Vereya 3%": {
+      "price": 1.73,
+      "currency": "EUR",
+      "unit": "1l",
       "category": "Dairy"
     }
   },
-  "bakery": {
-    "Hlyab Dobrudzha": {
-      "price": 1.45,
+  "essential_meat": {
+    "Pileshko File Gradus Ohladeno": {
+      "price": 11.79,
       "unit": "650g",
-      "category": "Bakery"
+      "category": "Meat"
     },
-    "Beli Hlyab Na Furnata": {
-      "price": 1.69,
+    "Mlyano Meso ot Svinsko i Govezhdo Madzharov": {
+      "price": 9.89,
       "unit": "500g",
-      "category": "Bakery"
+      "category": "Meat"
     },
-    "Kroasan s Maslo (Fresh Bakery)": {
-      "price": 0.99,
-      "unit": "item",
-      "category": "Bakery"
+    "Yaitsa Razmer M Balgarski": {
+      "price": 4.69,
+      "unit": "10-pack",
+      "category": "Protein"
     }
   },
-  "meat_and_fish": {
-    "Pileshko File ot Gardi (K-Purland)": {
-      "price": 13.49,
-      "unit": "kg",
-      "category": "Meat"
+  "essential_bakery_and_grains": {
+    "Hlyab Eliaz Tipov Nariazan": {
+      "price": 2.39,
+      "unit": "650g",
+      "category": "Grains"
     },
-    "Mlyano Meso Svinsko i Govezhdo Brey!": {
-      "price": 7.99,
+    "Oriz Krano": {
+      "price": 3.89,
       "unit": "kg",
-      "category": "Meat"
+      "category": "Grains"
     },
-    "Svinski Vrat bez Kost": {
-      "price": 11.89,
-      "unit": "kg",
-      "category": "Meat"
+    "Makaroni Krina": {
+      "price": 2.19,
+      "unit": "500g",
+      "category": "Grains"
     }
   },
-  "produce": {
-    "Domati Rozovi": {
-      "price": 4.20,
-      "unit": "kg",
-      "category": "Produce"
-    },
-    "Krastavitsi": {
-      "price": 2.80,
-      "unit": "kg",
-      "category": "Produce"
-    },
+  "essential_produce": {
     "Kartofi": {
-      "price": 1.35,
+      "price": 1.89,
       "unit": "kg",
       "category": "Produce"
     },
-    "Banani": {
-      "price": 2.99,
+    "Luk Star": {
+      "price": 1.75,
+      "unit": "kg",
+      "category": "Produce"
+    },
+    "Morkovi": {
+      "price": 1.69,
       "unit": "kg",
       "category": "Produce"
     }
   },
-  "pantry": {
-    "Olio K-Classic": {
-      "price": 2.69,
+  "essential_pantry": {
+    "Olio Kalra": {
+      "price": 2.99,
       "unit": "l",
       "category": "Pantry"
     },
-    "Zahar K-Classic": {
-      "price": 1.85,
+    "Sol Gotvarska": {
+      "price": 0.95,
       "unit": "kg",
-      "category": "Pantry"
-    },
-    "Oriz Balgarski Brey!": {
-      "price": 3.19,
-      "unit": "kg",
-      "category": "Pantry"
-    },
-    "Lyutenitsa Traditsionna Brey!": {
-      "price": 4.49,
-      "unit": "500g",
       "category": "Pantry"
     }
   }
