@@ -1,12 +1,10 @@
-//ebag.bg prices
-
 {
-  "essential_diary": {
+  "essential_dairy": {
     "Sirene Krave Vereq": {
       "price": 4.85,
       "currency": "EUR",
       "unit": "700g",
-      "category": "Diary"
+      "category": "Dairy"
     },
     "Kashkaval Murgash ot Krave Mlyako": {
       "price": 6.59,
@@ -29,63 +27,74 @@
   },
   "essential_meat": {
     "Pileshko File Gradus Ohladeno": {
-      "price": 11.79,
+      "price": 6.03,
+      "currency": "EUR",
       "unit": "650g",
       "category": "Meat"
     },
     "Mlyano Meso ot Svinsko i Govezhdo Madzharov": {
-      "price": 9.89,
+      "price": 5.06,
+      "currency": "EUR",
       "unit": "500g",
       "category": "Meat"
     },
     "Yaitsa Razmer M Balgarski": {
-      "price": 4.69,
+      "price": 2.40,
+      "currency": "EUR",
       "unit": "10-pack",
       "category": "Protein"
     }
   },
   "essential_bakery_and_grains": {
     "Hlyab Eliaz Tipov Nariazan": {
-      "price": 2.39,
+      "price": 1.22,
+      "currency": "EUR",
       "unit": "650g",
       "category": "Grains"
     },
     "Oriz Krano": {
-      "price": 3.89,
+      "price": 1.99,
+      "currency": "EUR",
       "unit": "kg",
       "category": "Grains"
     },
     "Makaroni Krina": {
-      "price": 2.19,
+      "price": 1.12,
+      "currency": "EUR",
       "unit": "500g",
       "category": "Grains"
     }
   },
   "essential_produce": {
     "Kartofi": {
-      "price": 1.89,
+      "price": 0.97,
+      "currency": "EUR",
       "unit": "kg",
       "category": "Produce"
     },
     "Luk Star": {
-      "price": 1.75,
+      "price": 0.89,
+      "currency": "EUR",
       "unit": "kg",
       "category": "Produce"
     },
     "Morkovi": {
-      "price": 1.69,
+      "price": 0.86,
+      "currency": "EUR",
       "unit": "kg",
       "category": "Produce"
     }
   },
   "essential_pantry": {
     "Olio Kalra": {
-      "price": 2.99,
+      "price": 1.53,
+      "currency": "EUR",
       "unit": "l",
       "category": "Pantry"
     },
     "Sol Gotvarska": {
-      "price": 0.95,
+      "price": 0.49,
+      "currency": "EUR",
       "unit": "kg",
       "category": "Pantry"
     }
