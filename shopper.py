@@ -2,10 +2,45 @@ import json
 
 def load_prices():
     with open('market_prices.json', 'r') as f:
-        data = json.load(f)
-        return data
+        prices = json.load(f)
+        return prices
+
+def read_shopping_list():
+    shopping_list = []
+    with open('my_list.txt', 'r') as f:
+        for line in f:
+            item = line.strip()
+            if item:
+                shopping_list.append(item)
+    return shopping_list
+
+def calculate_price(prices,shopping_list):
+    total_price = 0.0
+    for item in shopping_list:
+        for category in prices:
+            if item in prices[category]:
+                total_price += prices[category][item]["price"]
+                break
+    return total_price
+
+
+
+# test
+# if __name__ == "__main__":
+#     grocery_data = load_prices()
+#     print("Successfully loaded data:")
+#     print(grocery_data)
+
+# if __name__ == "__main__":
+#     grocery_data = load_prices()
+#
+#     # Test your new function
+#     my_items = read_shopping_list()
+#     print("Successfully loaded shopping list:")
+#     print(my_items)
 
 if __name__ == "__main__":
     grocery_data = load_prices()
-    print("Successfully loaded data:")
-    print(grocery_data)
+    my_items = read_shopping_list()
+
+    print(calculate_price(grocery_data, my_items) ,"EURO")
