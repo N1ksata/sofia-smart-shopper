@@ -6,7 +6,7 @@ def load_prices():
         return prices
 
 def read_shopping_list():
-    found = False
+    # found = False
     shopping_list = []
     with open('my_list.txt', 'r') as f:
         for line in f:
@@ -14,18 +14,29 @@ def read_shopping_list():
             if item:
                 shopping_list.append(item)
                 found = True
-    if not found:
+    # if not found:
+    #     print('No shopping list')
+
+    if not shopping_list:
         print('No shopping list')
     return shopping_list
+
 
 def calculate_price(prices,shopping_list):
     total_price = 0.0
     for item in shopping_list:
-        for category in prices:
-            if item in prices[category]:
-                total_price += prices[category][item]["price"]
-                break
-    return round(total_price ,  2)
+        item_found = False
+
+        for item in shopping_list:
+            for category in prices:
+                if item in prices[category]:
+                    total_price += prices[category][item]["price"]
+                    item_found = True
+                    break
+        if not item_found:
+            print(f"Warning: '{item}' was not found in market_prices.json")
+
+    return round(total_price,2)
 
 
 
