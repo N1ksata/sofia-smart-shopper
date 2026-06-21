@@ -1,4 +1,5 @@
 import json
+# problem with input
 
 def load_prices():
     with open('market_prices.json', 'r') as f:
