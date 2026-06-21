@@ -21,7 +21,7 @@ def calculate_price(prices,shopping_list):
             if item in prices[category]:
                 total_price += prices[category][item]["price"]
                 break
-    return total_price
+    return round(total_price ,  2)
 
 
 
