@@ -6,12 +6,16 @@ def load_prices():
         return prices
 
 def read_shopping_list():
+    found = False
     shopping_list = []
     with open('my_list.txt', 'r') as f:
         for line in f:
             item = line.strip()
             if item:
                 shopping_list.append(item)
+                found = True
+    if not found:
+        print('No shopping list')
     return shopping_list
 
 def calculate_price(prices,shopping_list):
