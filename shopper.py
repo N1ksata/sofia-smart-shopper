@@ -32,6 +32,7 @@ def calculate_price(prices,shopping_list):
 
 
 
+
 # test
 # if __name__ == "__main__":
 #     grocery_data = load_prices()
