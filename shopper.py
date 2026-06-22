@@ -1,5 +1,5 @@
 import json
-# problem with input
+
 
 def load_prices():
     with open('market_prices.json', 'r') as f:
@@ -7,19 +7,12 @@ def load_prices():
         return prices
 
 def read_shopping_list():
-    # found = False
     shopping_list = []
     with open('my_list.txt', 'r') as f:
         for line in f:
             item = line.strip()
             if item:
                 shopping_list.append(item)
-                found = True
-    # if not found:
-    #     print('No shopping list')
-
-    if not shopping_list:
-        print('No shopping list')
     return shopping_list
 
 
@@ -27,13 +20,11 @@ def calculate_price(prices,shopping_list):
     total_price = 0.0
     for item in shopping_list:
         item_found = False
-
-        for item in shopping_list:
-            for category in prices:
-                if item in prices[category]:
-                    total_price += prices[category][item]["price"]
-                    item_found = True
-                    break
+        for category in prices:
+            if item in prices[category]:
+                total_price += prices[category][item]["price"]
+                item_found = True
+                break
         if not item_found:
             print(f"Warning: '{item}' was not found in market_prices.json")
 
